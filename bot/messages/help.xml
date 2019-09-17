@@ -1,0 +1,43 @@
+<text>
+    <body>
+        <embed color='3447003' timestamp='false'>
+            <author src='https://i.imgur.com/lm8s41J.png'>
+                Mangosteen Commands
+            </author>
+            <title>
+                Mangosteen commands.
+            </title>
+            <description>
+                Start commands With the prefix `>`. Arguments in square brackets `[]` are required, Arguments in round brackets `()` are optional. Curly Brackets `{}` Show the permissions needed to use the command. Bars `|` Show The Commands Alises
+            </description>
+            <fields>
+                <field>
+                    <fn>
+                        General
+                    </fn>
+                    <ft>
+                        `help (type)` Shows Commands
+                    </ft>
+                </field>
+                <field>
+                    <fn>
+                        Utility
+                    </fn>
+                    <ft>
+                        `convert [unitin] [unitout] [unitvalue]` Converts Across Units. Can be used with currency like robux or keys. A List with valid convertions can be found by typing `>help convert`
+                    </ft>
+                </field>
+                <field>
+                    <fn>
+                        Fun
+                    </fn>
+                    <ft>
+                        `unedgy [text]` Cleanse The Edgy out of Text.
+                        `yeet (text)` Yeet yourself into a room.
+                        `f` Press `f` to pay respects.
+                    </ft>
+                </field>
+            </fields>
+        </embed>
+    </body>
+</text>

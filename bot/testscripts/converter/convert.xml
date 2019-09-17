@@ -1,0 +1,48 @@
+<text>
+    <head>
+    </head>
+    <body>
+        <embed color='3447003' timestamp='true'>
+            <author src='https://i.imgur.com/lm8s41J.png'>
+                10³(9.6)
+            </author>
+            <title href='https://google.com'>
+                This is a embed
+            </title>
+            <description>
+                description lmao
+            </description>
+            <img src='http://i.imgur.com/yVpymuV.png'/>
+            <thumbnail src='http://i.imgur.com/p2qNFag.png'/>
+            <fields>
+                <field>
+                    <fn>
+                        1
+                    </fn>
+                    <ft>
+                        Text
+                    </ft>
+                </field>
+                <field inline='true'>
+                    <fn>
+                        2
+                    </fn>
+                    <ft>
+                        More Text
+                    </ft>
+                </field>
+                <field inline='true'>
+                    <fn>
+                        3
+                    </fn>
+                    <ft>
+                        Even More Text
+                    </ft>
+                </field>
+            </fields>
+            <footer img='http://i.imgur.com/w1vhFSR.png'>
+                This is the footer
+            </footer>
+        </embed>
+    </body>
+</text>

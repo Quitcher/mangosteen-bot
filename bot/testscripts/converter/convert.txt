@@ -1,0 +1,28 @@
+{ text:
+   { head:
+      [ { file:
+           [ { '$':
+                { src: 'https://via.placeholder.com/300x300',
+                  alt: 'Image',
+                  spoiler: 'false' } } ] } ],
+     body:
+      [ { embed:
+           [ { '$': { color: '3447003', timestamp: 'true' },
+               author:
+                [ { _: '10³(9.6)',
+                    '$': { src: 'https://via.placeholder.com/100x100' } } ],
+               title:
+                [ { _: 'This is a embed', '$': { href: 'https://google.com' } } ],
+               description: [ 'Description lmao' ],
+               img: [ { '$': { src: 'https://via.placeholder.com/300x300' } } ],
+               thumbnail: [ { '$': { src: 'https://via.placeholder.com/300x300' } } ],
+               fields:
+                [ { field:
+                     [ { fn: [ '1' ], ft: [ 'Text' ] },
+                       { '$': { inline: 'true' }, fn: [ '2' ], ft: [ 'More Text' ] },
+                       { '$': { inline: 'true' },
+                         fn: [ '3' ],
+                         ft: [ 'Even More Text' ] } ] } ],
+               footer:
+                [ { _: 'This is the footer',
+                    '$': { img: 'https://via.placeholder.com/100x100' } } ] } ] } ] } }
