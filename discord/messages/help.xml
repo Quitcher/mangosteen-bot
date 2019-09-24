@@ -16,15 +16,7 @@
                         General
                     </fn>
                     <ft>
-                        `help (type)` Shows Commands
-                    </ft>
-                </field>
-                <field>
-                    <fn>
-                        Utility
-                    </fn>
-                    <ft>
-                        `convert [unitin] [unitout] [unitvalue]` Converts Across Units. Can be used with currency like robux or keys. A List with valid convertions can be found by typing `>help convert`
+                        `help|? (type)` Shows Commands
                     </ft>
                 </field>
                 <field>
