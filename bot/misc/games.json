@@ -1,0 +1,25 @@
+[
+    {
+        "id": 0,
+        "name": "Geometry Dash",
+        "alises": [
+            "gd",
+            "gdash",
+            "geodash"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Team Fortess 2",
+        "alises": [
+            "tf2"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Minecraft",
+        "alises": [
+            "mc"
+        ]
+    }
+]

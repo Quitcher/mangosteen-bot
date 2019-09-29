@@ -10,3 +10,8 @@ exports.run = (message,callback) => {
         callback('Please Put in a Valid Number');
     }
 }
+exports.info = () => {
+    let desc = ""
+    let example = ""
+    let cat = "Math"
+}

@@ -63,3 +63,5 @@ typings/
 # misc
 config.json
 .DS_Store
+discord
+slack
