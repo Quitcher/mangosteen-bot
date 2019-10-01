@@ -47,7 +47,16 @@ exports.run = (message,callback) => {
     }
 }
 exports.info = () => {
-    let desc = ""
-    let example = ""
+    let name = "drecords"
+    let structure = "drecords <demon position>"
+    let desc = "Finds Records Based on Demons"
+    let example = "drecords 76"
     let cat = 0
+    return {
+        name,
+        structure,
+        desc,
+        example,
+        cat
+    }
 }

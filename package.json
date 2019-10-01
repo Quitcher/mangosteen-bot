@@ -2,25 +2,27 @@
   "name": "discord-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "build/main.js",
+  "main": "bot/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "web": "next"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "discord.js": "^11.4.2",
-    "i": "^0.3.6",
     "jest": "^24.9.0",
     "jimp": "^0.6.0",
+    "next": "^9.0.7",
+    "node-sass": "^4.12.0",
     "npm": "^6.11.3",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1",
     "request-promise": "^4.2.4",
-    "slackbots": "^1.2.0",
-    "xml2js": "^0.4.19"
+    "slackbots": "^1.2.0"
   }
 }

@@ -36,7 +36,16 @@ exports.run = (message,callback) => {
     });
 }
 exports.info = () => {
-    let desc = ""
-    let example = ""
+    let name = "key"
+    let structure = "key <input> <currency>"
+    let desc = "Find Value of Amount of keys inputted"
+    let example = "key 3 THB"
     let cat = 1
+    return {
+        name,
+        structure,
+        desc,
+        example,
+        cat
+    }
 }

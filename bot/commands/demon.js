@@ -87,7 +87,16 @@ exports.run = (message,callback) => {
     }
 }
 exports.info = () => {
-    let desc = ""
-    let example = ""
+    let name = "demon"
+    let structure = "demon <place or name>"
+    let desc = "Uses Pointercrate to Find Demon"
+    let example = "demon 76"
     let cat = 0
+    return {
+        name,
+        structure,
+        desc,
+        example,
+        cat
+    }
 }

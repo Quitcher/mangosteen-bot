@@ -11,7 +11,16 @@ exports.run = (message,callback) => {
     }
 }
 exports.info = () => {
-    let desc = ""
-    let example = ""
+    let name = "d"
+    let structure = "d <max>|d <min> <max>"
+    let desc = "Output a Random Number"
+    let example = "d 5|d 2 9"
     let cat = "Math"
+    return {
+        name,
+        structure,
+        desc,
+        example,
+        cat
+    }
 }
